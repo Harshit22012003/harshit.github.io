@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+div{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: white;
+    position: absolute;
+    background: transparent;
+    margin-top: 20px;
+}
+
+
+/* NAVBAR */
+
+
+.brandName{
+    font-family: 'Monoton', cursive;
+    margin-left: 24px;
+    font-size: 33px;
+    color: white;
+}
+
+.navLink{
+    font-family: 'Sono', sans-serif;
+   margin-left: 50px;
+   font-size: 15px;
+}
+.contactLink{
+    margin-right: 26px;
+
+}@media(max-width:992px)
+{
+    .contactLink,.skillLink,.aboutLink{
+        margin-left: 24px;
+    }
+}
+
+
+
+.backgroundImg {
+    width: 100%;
+    display: inline-block;
+    height: 100vh;
+  }
+span{
+    color: white;
+}
+.animated-gif{
+    width: 100%;
+}
+
+/* Section editing  */
+@font-face {
+    font-family: coolFont;
+    src: url(Potra.ttf);
+}
+
+
+#About{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+.about-video{
+   height: 500px;
+   display: inline-block;
+   position: relative;
+   right: 10px;
+   top: 50px;
+}
+.section-heading{
+    color: white;
+    text-align: right;
+    font-size: 100px;
+    position: relative;
+    font-family: coolFont;
+    top: 250px;
+    right: 30px;
+    font-weight: bold;
+}
+.section-heading2{
+    color: white;
+    text-align: right;
+    font-size: 20px;
+    position: relative;
+    font-family: coolFont;
+    top: 250px;
+    right: 30px;
+   
+}
+@media(max-width: 1205px){
+    #About{
+        margin: 0 auto 0 auto;
+    }
+    .section-heading{
+        font-size: 80px;
+        position: absolute;
+top: 900px;
+
+    }
+    .section-heading2{
+        font-size: 10px;
+        position: absolute;
+top: 1000px;
+    }
+}
+
+/* connect editing  */
+.connect-video{
+    height: 100vh;
+    width: 100%;
+}
+
+.contact-button{
+    /* margin-bottom: 109px; */
+    font-size: 20px;
+    margin-left: 500px;
+    
+}
+.contact-button2{
+    /* margin-bottom: 109px; */
+    font-size: 20px;
+    margin-left: 650px;
+    margin-bottom: 10px;
+    
+}
